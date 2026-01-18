@@ -1,0 +1,25 @@
+# about this program
+
+news api叩いてニュースを取得する
+
+## secrets
+
+Gmail:<https://myaccount.google.com/apppasswords> ←ここから専用パスワード作る。メモってないので必要なら  
+作り直すと良い。今のままでも動く。（.envをローカルに作ってそこにパスワードを変数に入れる）  
+news api: <https://newsapi.org/account>  
+無料枠でつかってる
+
+## progress
+
+news api叩いてニュースを引っ張ってくるところまでは作った。
+本当はGPTを噛ませて日本語要約させてGithub Actionsで日時実行しようと思ったけど力尽きた。
+
+## attentions
+
+openai apiは叩くためにドルをチャージして使うらしい。  
+<https://platform.openai.com/settings/organization/billing/overview>  
+ここからチャージができるので、使いすぎるとかなくて良さげだけど課金怖いからやめた。
+
+## usage
+
+PJルートで「python main.py」でOK
